@@ -36,7 +36,7 @@ LOGIN=prod-login
 PASSWORD=prod-password
 ```
 
-byB running  `around`, this will generates a shell function for you in `~/.aroundrc`
+by running  `around`, this will generates a shell function for you in `~/.aroundrc`
 
 ```
 conf_production() {
@@ -153,7 +153,7 @@ Multiple `around_ssh_key` entries are supported.
 
 ```ini
 [production]
-USER=privilegedUser
+MYUSER=privilegedUser
 around_ssh_key=cat /path/to/key
 around_ssh_key=gopass show -o=false --noparsing secure/store/to/keys
 ```
